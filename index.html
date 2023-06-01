@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>test</title>
+
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0f1ec;
+        font-family: Arial, sans-serif;
+      }
+
+      .conteiner {
+        width: 840px;
+        height: 680px;
+        display: grid;
+        grid-template-columns: repeat(5, 160px);
+        grid-template-rows: repeat(4, 160px);
+        gap: 5px;
+        margin-top: 10px;
+        border-radius: 5px;
+        justify-content: center;
+        align-content: center;
+        background-color: white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .item {
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .color1 {
+        background-color: #903632;
+      }
+
+      .color2 {
+        background-color: #a34139;
+      }
+
+      .color3 {
+        background-color: #c64438;
+      }
+
+      .color4 {
+        background-color: #d34f31;
+      }
+
+      .color5 {
+        background-color: #ed996f;
+      }
+
+      .color6 {
+        background-color: #f6871c;
+      }
+
+      .color7 {
+        background-color: #ffa121;
+      }
+
+      .color8 {
+        background-color: #fda91e;
+      }
+
+      .color9 {
+        background-color: #fbae20;
+      }
+
+      .color10 {
+        background-color: #ffdea1;
+      }
+
+      .color11 {
+        background-color: #ffb118;
+      }
+
+      .color12 {
+        background-color: #ffb423;
+      }
+
+      .color13 {
+        background-color: #ffe39e;
+      }
+
+      .color14 {
+        background-color: #ffc500;
+      }
+
+      .color15 {
+        background-color: #2f8846;
+      }
+
+      .color16 {
+        background-color: #227646;
+      }
+
+      .color17 {
+        background-color: #236245;
+      }
+
+      .color18 {
+        background-color: #197e51;
+      }
+
+      .color19 {
+        background-color: #204f47;
+      }
+
+      .color20 {
+        background-color: #cb719f;
+      }
+
+      .item > p {
+        margin-top: 65px;
+        font-size: 1.5rem;
+        opacity: 0;
+        transition: 0.5s;
+        padding: 10px;
+        }
+    
+      .item:hover > p {
+        display: inline-block;
+        opacity: 1;
+        margin-top: 50px;
+        }
+
+      .advice {
+        margin-top: 15px;
+        padding-bottom: 20px;
+        width: 800px;
+        display: block;
+        font-size: 1rem;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="item color1"><p>#903632</p></div>
+      <div class="item color2"><p>#a34139</p></div>
+      <div class="item color3"><p>#c64438</p></div>
+      <div class="item color4"><p>#d34f31</p></div>
+      <div class="item color5"><p>#ed996f</p></div>
+
+      <div class="item color6"><p>#f6871c</p></div>
+      <div class="item color7"><p>#ffa121</p></div>
+      <div class="item color8"><p>#fda91e</p></div>
+      <div class="item color9"><p>#fbae20</p></div>
+      <div class="item color10"><p>#ffdea1</p></div>
+      <div class="item color11"><p>#ffb118</p></div>
+      <div class="item color12"><p>#ffb423</p></div>
+      <div class="item color13"><p>#ffe39e</p></div>
+
+      <div class="item color14"><p>#ffc500</p></div>
+      <div class="item color15"><p>#2f8846</p></div>
+      <div class="item color16"><p>#227646</p></div>
+      <div class="item color17"><p>#236245</p></div>
+      <div class="item color18"><p>#197e51</p></div>
+      <div class="item color19"><p>#204f47</p></div>
+      <div class="item color20"><p>#cb719f</p></div>
+      </div>
+
+      <p class="advice"><i>*As cores deste site são apenas referências, podendo existir
+        divergência entre as cores apresentadas na tela ( podem variar
+        dependendo da configuração do seu monitor, frequência, entre outros
+        fatores ) e as cores reais dos produtos comercializados. Recomendamos
+        que entre em contato com um vendedor e solicite amostra da plaqueta
+        para visualizar e escolher corretamente a cor que deseja.</i>
+      </p>
+    </div>
+  </body>
+</html>
